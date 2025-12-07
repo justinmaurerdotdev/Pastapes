@@ -33,11 +33,12 @@ try {
 	// TABLE: SIDES
 	// The main container for the PDF data. A tape usually has A and B sides.
 	// -------------------------------------------------------------------------
-	$pdo->exec("CREATE TABLE IF NOT EXISTS sides (
+ $pdo->exec("CREATE TABLE IF NOT EXISTS sides (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         tape_id INTEGER NOT NULL,
         side_letter TEXT NOT NULL,         -- 'A' or 'B'
         filename TEXT UNIQUE,              -- 'Tape013A' (Matches your PDF source ID)
+        has_audio INTEGER NOT NULL DEFAULT 1, -- Boolean flag: 1 if audio exists, 0 if missing
 
         -- Metadata extracted from header
         genre TEXT,                        -- 'Dixieland Jazz', 'Bluegrass'
@@ -56,7 +57,21 @@ try {
 
         FOREIGN KEY (tape_id) REFERENCES tapes(id) ON DELETE CASCADE
     )");
-	echo " - Table 'sides' created.\n";
+echo " - Table 'sides' created.\n";
+
+    // Ensure 'has_audio' column exists for older databases (migration-safe)
+    $cols = $pdo->query("PRAGMA table_info(sides)")->fetchAll(PDO::FETCH_ASSOC);
+    $hasHasAudio = false;
+    foreach ($cols as $col) {
+        if (isset($col['name']) && $col['name'] === 'has_audio') {
+            $hasHasAudio = true;
+            break;
+        }
+    }
+    if (!$hasHasAudio) {
+        $pdo->exec("ALTER TABLE sides ADD COLUMN has_audio INTEGER NOT NULL DEFAULT 1");
+        echo " - Column 'has_audio' added to 'sides'.\n";
+    }
 
 	// -------------------------------------------------------------------------
 	// TABLE: SESSIONS

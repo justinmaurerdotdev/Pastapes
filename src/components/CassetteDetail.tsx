@@ -10,7 +10,8 @@ interface CassetteDetailProps {
 }
 
 export function CassetteDetail({ side, onBack, onNavigateToPersonnel }: CassetteDetailProps) {
-  return (
+  console.log(side)
+    return (
     <div className="max-w-5xl mx-auto">
       <button
         onClick={onBack}
@@ -50,9 +51,15 @@ export function CassetteDetail({ side, onBack, onNavigateToPersonnel }: Cassette
           </div>
         </div>
 
-        {/* Audio Player */}
+        {/* Audio Player or fallback message */}
         <div className="px-8 py-6 bg-gradient-to-r from-amber-50 to-orange-50 border-b border-amber-200">
-          <AudioPlayer side={side} />
+          {side.has_audio === false ? (
+            <div className="text-amber-900/80 text-sm">
+              No recording available.
+            </div>
+          ) : (
+            <AudioPlayer side={side} />
+          )}
         </div>
 
         {/* Technical Metadata */}

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import type { CassetteSide } from '../types/cassette';
 import { Music } from 'lucide-react';
 
@@ -7,6 +8,11 @@ interface CassetteGridProps {
 }
 
 export function CassetteGrid({ cassetteSides, onSelectSide }: CassetteGridProps) {
+  // UI toggle: when enabled, hide sides without audio. Default is OFF per requirement.
+  const [onlyWithAudio, setOnlyWithAudio] = useState(false);
+  const visibleSides = onlyWithAudio
+    ? cassetteSides.filter((side) => side.has_audio ?? true)
+    : cassetteSides;
   const getTotalDuration = (side: CassetteSide): string => {
     let totalSeconds = 0;
     side.sessions.forEach(session => {
@@ -34,14 +40,28 @@ export function CassetteGrid({ cassetteSides, onSelectSide }: CassetteGridProps)
   return (
     <div>
       <div className="mb-6">
-        <h2 className="text-2xl text-amber-900">Browse Collection</h2>
-        <p className="text-amber-800/70 mt-1">
-          Click any cassette side to view details and play audio
-        </p>
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+          <div>
+            <h2 className="text-2xl text-amber-900">Browse Collection</h2>
+            <p className="text-amber-800/70 mt-1">
+              Click any cassette side to view details and play audio
+            </p>
+          </div>
+          <label htmlFor="audioFilter" className="inline-flex items-center gap-2 select-none cursor-pointer text-amber-900">
+            <input
+              id="audioFilter"
+              type="checkbox"
+              className="w-4 h-4 rounded border-amber-300 text-amber-600 focus:ring-amber-500"
+              checked={onlyWithAudio}
+              onChange={(e) => setOnlyWithAudio(e.target.checked)}
+            />
+            <span className="text-sm">Only show sides with audio</span>
+          </label>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {cassetteSides.map((side) => (
+        {visibleSides.map((side) => (
           <button
             key={side.filename}
             onClick={() => onSelectSide(side)}

@@ -40,27 +40,53 @@ function tryMapCassetteSides(db: Database): CassetteSide[] {
       return values.map((row) => Object.fromEntries(columns.map((c, i) => [c, row[i]])));
     };
 
-    // Load all sides joined with their tape number
-    const sideRows = toObjects(
-      db.exec(
-        `SELECT 
-           s.id               AS side_id,
-           s.side_letter      AS side_letter,
-           s.filename         AS filename,
-           s.genre            AS genre,
-           s.album_title      AS album_title,
-           s.main_artist      AS main_artist,
-           s.record_date_display AS record_date_display,
-           s.audio_type       AS audio_type,
-           s.dolby_setting    AS dolby_setting,
-           s.tape_selector    AS tape_selector,
-           s.library_catalog_no AS library_catalog_no,
-           t.tape_number      AS tape_number
-         FROM sides s
-         JOIN tapes t ON t.id = s.tape_id
-         ORDER BY t.tape_number, s.side_letter`
-      )
-    );
+    // Load all sides joined with their tape number. Try to read optional has_audio column; fall back if absent.
+    let sideRows: Record<string, unknown>[] = [];
+    try {
+      sideRows = toObjects(
+        db.exec(
+          `SELECT 
+             s.id               AS side_id,
+             s.side_letter      AS side_letter,
+             s.filename         AS filename,
+             s.genre            AS genre,
+             s.album_title      AS album_title,
+             s.main_artist      AS main_artist,
+             s.record_date_display AS record_date_display,
+             s.audio_type       AS audio_type,
+             s.dolby_setting    AS dolby_setting,
+             s.tape_selector    AS tape_selector,
+             s.library_catalog_no AS library_catalog_no,
+             COALESCE(s.has_audio, 1) AS has_audio,
+             t.tape_number      AS tape_number
+           FROM sides s
+           JOIN tapes t ON t.id = s.tape_id
+           ORDER BY t.tape_number, s.side_letter`
+        )
+      );
+    } catch {
+      // Older DB without has_audio column
+      sideRows = toObjects(
+        db.exec(
+          `SELECT 
+             s.id               AS side_id,
+             s.side_letter      AS side_letter,
+             s.filename         AS filename,
+             s.genre            AS genre,
+             s.album_title      AS album_title,
+             s.main_artist      AS main_artist,
+             s.record_date_display AS record_date_display,
+             s.audio_type       AS audio_type,
+             s.dolby_setting    AS dolby_setting,
+             s.tape_selector    AS tape_selector,
+             s.library_catalog_no AS library_catalog_no,
+             t.tape_number      AS tape_number
+           FROM sides s
+           JOIN tapes t ON t.id = s.tape_id
+           ORDER BY t.tape_number, s.side_letter`
+        )
+      );
+    }
 
     const sides: CassetteSide[] = [];
 
@@ -100,6 +126,7 @@ function tryMapCassetteSides(db: Database): CassetteSide[] {
         tape_number: String(sr['tape_number'] ?? ''),
         side_letter,
         filename: String(sr['filename'] ?? ''),
+        has_audio: sr.hasOwnProperty('has_audio') ? Number(sr['has_audio']) !== 0 : true,
         metadata: {
           album_title: String(sr['album_title'] ?? ''),
           main_artist: String(sr['main_artist'] ?? ''),

@@ -6,6 +6,9 @@ export interface CassetteSide {
   tape_number: string;
   side_letter: 'A' | 'B';
   filename: string;
+  // Whether an audio recording exists for this side.
+  // Optional to maintain compatibility with existing fallback data; defaults to true when omitted.
+  has_audio?: boolean;
   metadata: SideMetadata;
   sessions: Session[];
 }

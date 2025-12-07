@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { Play, Pause, Volume2, VolumeX, SkipBack, SkipForward } from 'lucide-react';
-import type { CassetteSide } from '../types/cassette';
+import type { CassetteSide } from '@/types/cassette';
 
 interface AudioPlayerProps {
   side: CassetteSide;
@@ -14,7 +14,12 @@ export function AudioPlayer({ side }: AudioPlayerProps) {
   const [isMuted, setIsMuted] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
-  // Convert duration string (MM:SS) to seconds
+  // Build the audio source URL from env base + filename (without extension)
+  // Env var: VITE_AUDIO_BASE_URL (e.g., https://your-bucket.s3.amazonaws.com/audio)
+  const audioBase = (import.meta as any).env?.VITE_AUDIO_BASE_URL as string | undefined;
+  const audioSrc = `${(audioBase || '').replace(/\/$/, '')}/${side.filename}.mp3`;
+
+  // Convert side track durations to seconds
   const durationToSeconds = (side: CassetteSide) => {
     let totalSeconds = 0;
     side.sessions.forEach(session => {
@@ -25,15 +30,32 @@ export function AudioPlayer({ side }: AudioPlayerProps) {
     return totalSeconds;
   };
 
-  // Mock duration from side duration
+  // Reset player when side changes
   useEffect(() => {
     setDuration(durationToSeconds(side));
     setCurrentTime(0);
     setIsPlaying(false);
-  }, [side.filename]);
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+      // Reload metadata for the new source
+      audioRef.current.load();
+    }
+  }, [side]);
 
   const togglePlay = () => {
-    setIsPlaying(!isPlaying);
+    if (!audioRef.current) return;
+
+    if (isPlaying) {
+      audioRef.current.pause();
+    } else {
+      audioRef.current
+        .play()
+        .catch(error => {
+          console.error('Playback failed:', error);
+          setIsPlaying(false);
+        });
+    }
   };
 
   const toggleMute = () => {
@@ -43,6 +65,9 @@ export function AudioPlayer({ side }: AudioPlayerProps) {
   const handleSeek = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newTime = parseFloat(e.target.value);
     setCurrentTime(newTime);
+    if (audioRef.current) {
+      audioRef.current.currentTime = newTime;
+    }
   };
 
   const handleVolumeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -52,38 +77,53 @@ export function AudioPlayer({ side }: AudioPlayerProps) {
   };
 
   const formatTime = (seconds: number) => {
+    if (!isFinite(seconds)) return '0:00';
     const mins = Math.floor(seconds / 60);
     const secs = Math.floor(seconds % 60);
     return `${mins}:${secs.toString().padStart(2, '0')}`;
   };
 
   const skipBackward = () => {
-    setCurrentTime(Math.max(0, currentTime - 10));
+    if (audioRef.current) {
+      audioRef.current.currentTime = Math.max(0, audioRef.current.currentTime - 10);
+    }
   };
 
   const skipForward = () => {
-    setCurrentTime(Math.min(duration, currentTime + 10));
+    if (audioRef.current) {
+      audioRef.current.currentTime = Math.min(duration, audioRef.current.currentTime + 10);
+    }
   };
 
-  // Simulate playback progress
+  // Sync volume and mute state with audio element
   useEffect(() => {
-    let interval: number;
-    if (isPlaying && currentTime < duration) {
-      interval = window.setInterval(() => {
-        setCurrentTime(prev => {
-          if (prev >= duration) {
-            setIsPlaying(false);
-            return duration;
-          }
-          return prev + 1;
-        });
-      }, 1000);
+    if (audioRef.current) {
+      audioRef.current.volume = volume;
+      audioRef.current.muted = isMuted;
     }
-    return () => clearInterval(interval);
-  }, [isPlaying, currentTime, duration]);
+  }, [volume, isMuted]);
 
   return (
     <div className="space-y-4">
+      {/* Native audio element; src is built from env base URL + filename.mp3 */}
+      <audio
+        ref={audioRef}
+        src={audioSrc}
+        preload="metadata"
+        className="hidden"
+        onTimeUpdate={() => {
+          if (audioRef.current) setCurrentTime(audioRef.current.currentTime);
+        }}
+        onLoadedMetadata={() => {
+          if (audioRef.current && isFinite(audioRef.current.duration)) {
+            setDuration(audioRef.current.duration);
+          }
+        }}
+        onEnded={() => setIsPlaying(false)}
+        onPlay={() => setIsPlaying(true)}
+        onPause={() => setIsPlaying(false)}
+      />
+
       {/* Progress Bar */}
       <div className="space-y-2">
         <input
@@ -94,7 +134,7 @@ export function AudioPlayer({ side }: AudioPlayerProps) {
           onChange={handleSeek}
           className="w-full h-2 bg-amber-200 rounded-lg appearance-none cursor-pointer slider"
           style={{
-            background: `linear-gradient(to right, rgb(217, 119, 6) 0%, rgb(217, 119, 6) ${(currentTime / duration) * 100}%, rgb(254, 243, 199) ${(currentTime / duration) * 100}%, rgb(254, 243, 199) 100%)`
+            background: `linear-gradient(to right, rgb(217, 119, 6) 0%, rgb(217, 119, 6) ${duration ? (currentTime / duration) * 100 : 0}%, rgb(254, 243, 199) ${duration ? (currentTime / duration) * 100 : 0}%, rgb(254, 243, 199) 100%)`
           }}
         />
         <div className="flex justify-between text-sm text-amber-900/70">

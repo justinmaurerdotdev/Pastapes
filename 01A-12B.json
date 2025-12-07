@@ -1,0 +1,915 @@
+{
+  "sides": [
+    {
+      "tape_number": "001",
+      "side_letter": "A",
+      "filename": "Tape001A",
+      "metadata": {
+        "album_title": "Marching Along With the Dukes of Dixieland, Vol. 3",
+        "main_artist": "Dukes of Dixieland",
+        "genre": "Dixieland Jazz",
+        "record_date_display": "Nov. 1957",
+        "audio_type": "Stereo",
+        "dolby": "off",
+        "tape_selector": "normal",
+        "catalog_number": "MJ R405"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "session_personnel": [
+            { "name": "Frank Assunto", "role": "Trumpet", "source_key": null },
+            { "name": "Fred Assunto", "role": "Trombone", "source_key": null },
+            { "name": "Jac Assunto", "role": "Trombone & banjo", "source_key": null },
+            { "name": "Harold Cooper", "role": "Clarinet", "source_key": null },
+            { "name": "Stanley Mendelson", "role": "Piano", "source_key": null },
+            { "name": "Paul Ferrara", "role": "Drums", "source_key": null },
+            { "name": "Bill Porter", "role": "Tuba & string bass", "source_key": null }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "Tromboneum", "original_text": "0 Tromboneum " },
+            { "sequence": 2, "counter_start": 62, "title": "Lassus Trombone", "original_text": "62 Lassus Trombone " },
+            { "sequence": 3, "counter_start": 107, "title": "My Home Town", "original_text": "107 My Home Town " },
+            { "sequence": 4, "counter_start": 160, "title": "Scobey Strut", "original_text": "160 Scobey Strut " },
+            { "sequence": 5, "counter_start": 199, "title": "Dukes of Dixieland March", "original_text": "199 Dukes of Dixieland March" },
+            { "sequence": 6, "counter_start": 239, "title": "McDonough Let The Trombones Blow", "original_text": "239 McDonough Let The Trombones Blow" },
+            { "sequence": 7, "counter_start": 274, "title": "Bourbon Street Parade", "original_text": "274 Bourbon Street Parade" },
+            { "sequence": 8, "counter_start": 309, "title": "Johnny Reb Comes Marching / Eyes of Texas / Glory to Old Georgia", "original_text": "309 Johnny Reb Comes Marching..." },
+            { "sequence": 9, "counter_start": 373, "title": "With A Pack On My Back", "original_text": "373 With A Pack On My Back" },
+            { "sequence": 10, "counter_start": 410, "title": "When Home", "original_text": "410 When Home" },
+            { "sequence": 11, "counter_start": 447, "title": "Just A Closer Walk With Thee", "original_text": "447 Just A Closer Walk With Thee" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "001",
+      "side_letter": "B",
+      "filename": "Tape001B",
+      "metadata": {
+        "album_title": "The Roots of Dixieland Jazz",
+        "main_artist": "Various Artists",
+        "genre": "Dixieland Jazz",
+        "record_date_display": "1944",
+        "audio_type": "Stereo simulation",
+        "dolby": "off",
+        "tape_selector": "normal",
+        "catalog_number": "MJ R1550"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "That's A Plenty", "artist_display": "Pee Wee Russell", "original_text": "0 That's A Plenty Pee Wee Russell" },
+            { "sequence": 2, "counter_start": 64, "title": "Ballin' The Jack", "artist_display": "Eddie Condon", "original_text": "64 Ballin' The Jack Eddie Condon" },
+            { "sequence": 3, "counter_start": 105, "title": "Whenever There's Love", "artist_display": "Billy Butterfield", "original_text": "105 Whenever There's Love Billy Butterfield" },
+            { "sequence": 4, "counter_start": 147, "title": "Royal Garden Blues", "artist_display": "Jess Stacy", "original_text": "147 Royal Garden Blues Jess Stacy" },
+            { "sequence": 5, "counter_start": 189, "title": "Back Home Again In Indiana", "artist_display": "Bobby Haggart", "original_text": "189 Back Home Again In Indiana Bobby Haggart" },
+            { "sequence": 6, "counter_start": 231, "title": "Deep Royal Blues", "artist_display": "George Wettling", "original_text": "231 Deep Royal Blues George Wettling" },
+            { "sequence": 7, "counter_start": 306, "title": "Billboard Dixieland", "artist_display": "Bobby Hackett", "original_text": "306 Billboard Dixieland Bobby Hackett" },
+            { "sequence": 8, "counter_start": 343, "title": "Cherry", "artist_display": "Buck Clayton", "original_text": "343 Cherry Buck Clayton" },
+            { "sequence": 9, "counter_start": 376, "title": "Jada", "artist_display": "Jo Jones", "original_text": "376 Jada Jo Jones" },
+            { "sequence": 10, "counter_start": 409, "title": "It's Been So Long", "artist_display": "Max Kaminsky", "original_text": "409 It's Been So Long Max Kaminsky" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "002",
+      "side_letter": "A",
+      "filename": "Tape002A",
+      "metadata": {
+        "album_title": "Dynamic Directional Dixie",
+        "main_artist": "Dick Cathcart's Dixielanders",
+        "genre": "Dixieland Jazz",
+        "audio_type": "Stereo",
+        "dolby": "none",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "session_personnel": [
+            { "name": "Dick Cathcart", "role": "Trumpet" },
+            { "name": "Moe Schneider", "role": "Trombone" },
+            { "name": "George Van Eps", "role": "Guitar & banjo" },
+            { "name": "Heinie Beau", "role": "Clarinet" },
+            { "name": "Ray Sherman", "role": "Piano" },
+            { "name": "Nick Fatool", "role": "Drums" },
+            { "name": "Red Callender", "role": "Tuba & string bass" },
+            { "name": "Eddie Miller", "role": "Tenor sax" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "Bill Bailey", "duration_min": 3, "duration_sec": 15, "original_text": "0 Bill Bailey 3 15" },
+            { "sequence": 2, "counter_start": 70, "title": "Royal Garden Blues", "duration_min": 2, "duration_sec": 45, "original_text": "70 Royal Garden Blues 2 45" },
+            { "sequence": 3, "counter_start": 120, "title": "Somebody Stole My Gal", "duration_min": 2, "duration_sec": 17, "original_text": "120 Somebody Stole My Gal 2 17" },
+            { "sequence": 4, "counter_start": 159, "title": "There's A Tavern In The Town", "duration_min": 3, "duration_sec": 40, "original_text": "159 There's A Tavern In The Town 3 40" },
+            { "sequence": 5, "counter_start": 218, "title": "Dixieland Blues", "duration_min": 3, "duration_sec": 50, "original_text": "218 Dixieland Blues 3 50" },
+            { "sequence": 6, "counter_start": 276, "title": "I Want A Girl", "duration_min": 3, "duration_sec": 25, "original_text": "276 I Want A Girl 3 25" },
+            { "sequence": 7, "counter_start": 323, "title": "Thunder and Blazes", "duration_min": 3, "duration_sec": 0, "original_text": "323 Thunder and Blazes 3 0" },
+            { "sequence": 8, "counter_start": 364, "title": "My Old Kentucky Home", "duration_min": 3, "duration_sec": 32, "original_text": "364 My Old Kentucky Home 3 32" },
+            { "sequence": 9, "counter_start": 408, "title": "Sousa Goes South", "duration_min": 3, "duration_sec": 8, "original_text": "408 Sousa Goes South 3 8" },
+            { "sequence": 10, "counter_start": 445, "title": "Dixieland March", "duration_min": 3, "duration_sec": 7, "original_text": "445 Dixieland March 3 7" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "002",
+      "side_letter": "B",
+      "filename": "Tape002B",
+      "metadata": {
+        "album_title": "Themes of the Great Bands",
+        "main_artist": "Glen Gray and the Casa Loma Orchestra",
+        "genre": "Big Band",
+        "audio_type": "Stereo",
+        "dolby": "none",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "Let's Dance", "track_specific_credits": [ { "name": "Skeets Herfurt", "role": "Clarinet" }, { "name": "Abe Most", "role": "Piano/Alto sax" } ], "original_text": "g,h 0 Let's Dance Benny Goodman" },
+            { "sequence": 2, "counter_start": 52, "title": "I'm Getting Sentimental Over You", "track_specific_credits": [ { "name": "Joe Howard", "role": "Trombone" } ], "original_text": "d 52 I'm Getting Sentimental Over You Tommy Dorsey" },
+            { "sequence": 3, "counter_start": 118, "title": "Redskin Rhumba", "track_specific_credits": [ { "name": "Skeets Herfurt", "role": "Piano/Alto sax" }, { "name": "Manny Klein", "role": "Trumpet" } ], "original_text": "k,a 118 Redskin Rhumba Charlie Barnet" },
+            { "sequence": 4, "counter_start": 159, "title": "Moonlight Serenade", "track_specific_credits": [ { "name": "Skeets Herfurt", "role": "Clarinet" } ], "original_text": "g 159 Moonlight Serenade Glenn Miller" },
+            { "sequence": 5, "counter_start": 212, "title": "Leap Frog", "track_specific_credits": [ { "name": "Justin Gordon", "role": "Tenor sax" } ], "original_text": "1 212 Leap Frog Les Brown" },
+            { "sequence": 6, "counter_start": 251, "title": "I Can't Get Started", "track_specific_credits": [ { "name": "Shorty Sherock", "role": "Trumpet" } ], "original_text": "b 251 I Can't Get Started Bunny Berigan" },
+            { "sequence": 7, "counter_start": 304, "title": "Nightmare", "track_specific_credits": [ { "name": "Abe Most", "role": "Piano/Alto sax" } ], "original_text": "h 304 Nightmare Artie Shaw" },
+            { "sequence": 8, "counter_start": 343, "title": "Ciribiribin", "original_text": "01 343 Ciribiribin Harry James" },
+            { "sequence": 9, "counter_start": 374, "title": "Blue Flame", "track_specific_credits": [ { "name": "Abe Most", "role": "Piano/Alto sax" }, { "name": "Milt Bernhart", "role": "Trombone" }, { "name": "Jack Marshall", "role": "Guitar" } ], "original_text": "h,e,m 374 Blue Flame Woody Herman" },
+            { "sequence": 10, "counter_start": 412, "title": "Quaker City Jazz", "track_specific_credits": [ { "name": "Eddie Kusby", "role": "Trombone" }, { "name": "Skeets Herfurt", "role": "Piano/Alto sax" }, { "name": "Abe Most", "role": "Piano/Alto sax" } ], "original_text": "f,k,h 412 Quaker City Jazz Jan Savitt" },
+            { "sequence": 11, "counter_start": 436, "title": "Tuxedo Junction", "track_specific_credits": [ { "name": "Skeets Herfurt", "role": "Piano/Alto sax" }, { "name": "Shorty Sherock", "role": "Trumpet" }, { "name": "Abe Most", "role": "Piano/Alto sax" } ], "original_text": "k,b,h 436 Tuxedo Junction Erskine Hawkins" },
+            { "sequence": 12, "counter_start": 476, "title": "Artistry in Rhythm", "track_specific_credits": [ { "name": "Ray Sherman", "role": "Piano/Alto sax" } ], "original_text": "i 476 Artistry in Rhythm Stan Kenton" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "003",
+      "side_letter": "A",
+      "filename": "Tape003A",
+      "metadata": {
+        "album_title": "Swing Into Spring",
+        "main_artist": "Benny Goodman",
+        "genre": "Swing",
+        "dolby": "off",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "The Earl", "track_specific_credits": [ { "name": "Benny Goodman", "role": "Clarinet" }, { "name": "Al Davis", "role": "Trumpet" }, { "name": "Clint Neagley", "role": "Alto sax" }, { "name": "Vido Musso", "role": "Tenor sax" }, { "name": "George Sax", "role": "Tenor sax" }, { "name": "Charles Gentry", "role": "Baritone" }, { "name": "Tom Morganelli", "role": "Guitar" }, { "name": "Morty Stuhlmaker", "role": "Bass" } ], "original_text": "0 The Earl a,b,r,v,w,y,z,ad" },
+            { "sequence": 2, "counter_start": 61, "title": "I'll Never Say 'Never Again' Again", "track_specific_credits": [ { "name": "Benny Goodman", "role": "Clarinet" }, { "name": "Billy Butterfield", "role": "Trumpet" }, { "name": "Lou McGarity", "role": "Trombone" }, { "name": "Bernie Leighton", "role": "Piano" }, { "name": "Don Lamond", "role": "Drums" }, { "name": "Helen Ward", "role": "Vocalist" } ], "original_text": "61 I'll Never Say 'Never Again' Again a,c,g,h,n,af" },
+            { "sequence": 3, "counter_start": 116, "title": "Undecided", "track_specific_credits": [ { "name": "Benny Goodman", "role": "Clarinet" }, { "name": "Terry Gibbs", "role": "Vibraphone" }, { "name": "Teddy Wilson", "role": "Piano" }, { "name": "Mundell Lowe", "role": "Guitar" }, { "name": "Sid Weiss", "role": "Bass" }, { "name": "Don Lamond", "role": "Drums" } ], "original_text": "116 Undecided a,ah,i,aa,ae,n" },
+            { "sequence": 4, "counter_start": 209, "title": "Just You, Just Me", "track_specific_credits": [ { "name": "Benny Goodman", "role": "Clarinet" }, { "name": "Billy Butterfield", "role": "Trumpet" }, { "name": "Gerald Sanfino", "role": "Alto sax" } ], "original_text": "209 Just You, Just Me a,c,s" },
+            { "sequence": 5, "counter_start": 251, "title": "Perfidia", "track_specific_credits": [ { "name": "Benny Goodman", "role": "Clarinet" }, { "name": "Les Robinson", "role": "Alto sax" }, { "name": "Count Basie", "role": "Piano" }, { "name": "Helen Forrest", "role": "Vocalist" } ], "original_text": "251 Perfidia a,t,j,ag" },
+            { "sequence": 6, "counter_start": 299, "title": "Rachel's Dream", "track_specific_credits": [ { "name": "Benny Goodman", "role": "Clarinet" }, { "name": "Red Norvo", "role": "Vibraphone" }, { "name": "Teddy Wilson", "role": "Piano" }, { "name": "Mike Bryan", "role": "Guitar" }, { "name": "Slam Stewart", "role": "Bass" }, { "name": "Morey Field", "role": "Drums" } ], "original_text": "299 Rachel's Dream a,ai,i,ab,q,o" },
+            { "sequence": 7, "counter_start": 338, "title": "What A Little Moonlight Can Do", "track_specific_credits": [ { "name": "Benny Goodman", "role": "Clarinet" }, { "name": "Billy Butterfield", "role": "Trumpet" }, { "name": "Lou McGarity", "role": "Trombone" }, { "name": "Bernie Leighton", "role": "Piano" }, { "name": "Don Lamond", "role": "Drums" }, { "name": "Helen Ward", "role": "Vocalist" } ], "original_text": "338 What A Little Moonlight Can Do a,c,g,h,n,af" },
+            { "sequence": 8, "counter_start": 383, "title": "Slipped Disc", "track_specific_credits": [ { "name": "Benny Goodman", "role": "Clarinet" }, { "name": "Red Norvo", "role": "Vibraphone" }, { "name": "Teddy Wilson", "role": "Piano" }, { "name": "Mike Bryan", "role": "Guitar" }, { "name": "Slam Stewart", "role": "Bass" }, { "name": "Morey Field", "role": "Drums" } ], "original_text": "383 Slipped Disc a,ai,i,ab,q,o" },
+            { "sequence": 9, "counter_start": 423, "title": "La Rosita", "track_specific_credits": [ { "name": "Benny Goodman", "role": "Clarinet" }, { "name": "Jimmy Maxwell", "role": "Trumpet" }, { "name": "Mel Powell", "role": "Piano" }, { "name": "Sid Catlett", "role": "Drums" } ], "original_text": "423 La Rosita a,e,k,p" },
+            { "sequence": 10, "counter_start": 460, "title": "Take It", "track_specific_credits": [ { "name": "Benny Goodman", "role": "Clarinet" }, { "name": "Skippy Martin", "role": "Alto sax" }, { "name": "Pete Mondello", "role": "Tenor sax" }, { "name": "Johnny Guarnieri", "role": "Piano" } ], "original_text": "460 Take It a,u,x,l" },
+            { "sequence": 11, "counter_start": 496, "title": "Swing Into Spring", "track_specific_credits": [ { "name": "Benny Goodman", "role": "Clarinet" }, { "name": "Doc Severinsen", "role": "Trumpet" }, { "name": "Hank Jones", "role": "Piano" }, { "name": "Tony Mottola", "role": "Guitar" } ], "original_text": "496 Swing Into Spring a,f,m,ac" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "003",
+      "side_letter": "B",
+      "filename": "Tape003B",
+      "metadata": {
+        "album_title": "Seductive Strings by Siravo",
+        "main_artist": "George Siravo",
+        "genre": "Easy Listening",
+        "dolby": "off",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "session_personnel": [
+            { "name": "Doc Severinsen", "role": "Trumpet" },
+            { "name": "Henry Rowland", "role": "Piano" },
+            { "name": "Buddy Weed", "role": "Piano" },
+            { "name": "Arnold Fishkind", "role": "Bass" },
+            { "name": "Sol Gubin", "role": "Drums" },
+            { "name": "Mundell Lowe", "role": "Guitar" },
+            { "name": "Janet Putnam", "role": "Harp" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "Once In A While", "duration_min": 3, "duration_sec": 56, "original_text": "0 Once In A While 3 56" },
+            { "sequence": 2, "counter_start": 81, "title": "My Reverie", "duration_min": 3, "duration_sec": 33, "original_text": "81 My Reverie 3 33" },
+            { "sequence": 3, "counter_start": 144, "title": "Star Dust", "duration_min": 2, "duration_sec": 56, "original_text": "144 Star Dust 2 56" },
+            { "sequence": 4, "counter_start": 192, "title": "Autumn In New York", "duration_min": 2, "duration_sec": 44, "original_text": "192 Autumn In New York 2 44" },
+            { "sequence": 5, "counter_start": 234, "title": "Hands Across The Table", "duration_min": 3, "duration_sec": 18, "original_text": "234 Hands Across The Table 3 18" },
+            { "sequence": 6, "counter_start": 283, "title": "Peg O' My Heart", "duration_min": 3, "duration_sec": 3, "original_text": "283 Peg O' My Heart 3 3" },
+            { "sequence": 7, "counter_start": 325, "title": "The Very Thought Of You", "duration_min": 2, "duration_sec": 45, "original_text": "325 The Very Thought Of You 2 45" },
+            { "sequence": 8, "counter_start": 361, "title": "Poor Butterfly", "duration_min": 3, "duration_sec": 17, "original_text": "361 Poor Butterfly 3 17" },
+            { "sequence": 9, "counter_start": 403, "title": "Maybe You'll Be There", "duration_min": 3, "duration_sec": 3, "original_text": "403 Maybe You'll Be There 3 3" },
+            { "sequence": 10, "counter_start": 439, "title": "Please Be Kind", "duration_min": 3, "duration_sec": 10, "original_text": "439 Please Be Kind 3 10" },
+            { "sequence": 11, "counter_start": 476, "title": "The Hour Of Parting", "duration_min": 2, "duration_sec": 53, "original_text": "476 The Hour Of Parting 2 53" },
+            { "sequence": 12, "counter_start": 507, "title": "East Of The Sun", "duration_min": 3, "duration_sec": 33, "original_text": "507 East Of The Sun 3 33" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "004",
+      "side_letter": "A",
+      "filename": "Tape004A",
+      "metadata": {
+        "album_title": "Foggy Mountain Banjo",
+        "main_artist": "Flatt & Scruggs and The Foggy Mountain Boys",
+        "genre": "Bluegrass Banjo",
+        "dolby": "off",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "session_personnel": [
+            { "name": "Earl Scruggs", "role": "Banjo" },
+            { "name": "Lester Flatt", "role": "Guitar" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "Ground Speed", "duration_min": 2, "duration_sec": 10, "original_text": "0 Ground Speed 2 10" },
+            { "sequence": 2, "counter_start": 47, "title": "Home Sweet Home", "duration_min": 2, "duration_sec": 11, "original_text": "47 Home Sweet Home 2 11" },
+            { "sequence": 3, "counter_start": 89, "title": "Sally Ann", "duration_min": 2, "duration_sec": 8, "original_text": "89 Sally Ann 2 8" },
+            { "sequence": 4, "counter_start": 127, "title": "Little Darlin', Pal Of Mine", "duration_min": 1, "duration_sec": 54, "original_text": "127 Little Darlin', Pal Of Mine 1 54" },
+            { "sequence": 5, "counter_start": 159, "title": "Reuben", "duration_min": 1, "duration_sec": 58, "original_text": "159 Reuben 1 58" },
+            { "sequence": 6, "counter_start": 192, "title": "Cripple Creek", "duration_min": 2, "duration_sec": 4, "original_text": "192 Cripple Creek 2 4" },
+            { "sequence": 7, "counter_start": 224, "title": "Lonesome Road Blues", "duration_min": 1, "duration_sec": 59, "original_text": "224 Lonesome Road Blues 1 59" },
+            { "sequence": 8, "counter_start": 254, "title": "John Henry", "duration_min": 2, "duration_sec": 3, "original_text": "254 John Henry 2 3" },
+            { "sequence": 9, "counter_start": 283, "title": "Fire Ball Mail", "duration_min": 1, "duration_sec": 49, "original_text": "283 Fire Ball Mail 1 49" },
+            { "sequence": 10, "counter_start": 308, "title": "Sally Goodwin", "duration_min": 2, "duration_sec": 9, "original_text": "308 Sally Goodwin 2 9" },
+            { "sequence": 11, "counter_start": 337, "title": "Bugle Call Rag", "duration_min": 2, "duration_sec": 27, "original_text": "337 Bugle Call Rag 2 27" },
+            { "sequence": 12, "counter_start": 368, "title": "Cumberland Gap", "duration_min": 1, "duration_sec": 54, "original_text": "368 Cumberland Gap 1 54" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "004",
+      "side_letter": "B",
+      "filename": "Tape004B",
+      "metadata": {
+        "album_title": "16 Great Performances",
+        "main_artist": "Doc Severinsen",
+        "genre": "Pop and some Dixieland Jazz",
+        "dolby": "off",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "What's Up Doc", "duration_min": 2, "duration_sec": 12, "original_text": "0 What's Up Doc 2 12" },
+            { "sequence": 2, "counter_start": 48, "title": "Theme From \"Black Orpheus\"", "duration_min": 3, "duration_sec": 40, "original_text": "48 Theme From \"Black Orpheus\" 3 40" },
+            { "sequence": 3, "counter_start": 116, "title": "Cielito Lindo", "duration_min": 2, "duration_sec": 50, "original_text": "116 Cielito Lindo 2 50" },
+            { "sequence": 4, "counter_start": 162, "title": "Free Again", "duration_min": 2, "duration_sec": 44, "original_text": "162 Free Again 2 44" },
+            { "sequence": 5, "counter_start": 205, "title": "St. Louis Blues", "duration_min": 3, "duration_sec": 22, "original_text": "205 St. Louis Blues 3 22" },
+            { "sequence": 6, "counter_start": 254, "title": "Tennessee Waltz", "duration_min": 2, "duration_sec": 35, "original_text": "254 Tennessee Waltz 2 35" },
+            { "sequence": 7, "counter_start": 289, "title": "Guantanemera", "duration_min": 3, "duration_sec": 10, "original_text": "289 Guantanemera 3 10" },
+            { "sequence": 8, "counter_start": 330, "title": "When The Saints Come Marching In", "duration_min": 2, "duration_sec": 3, "original_text": "330 When The Saints Come Marching In 2 3" },
+            { "sequence": 9, "counter_start": 355, "title": "Canadian Sunset", "duration_min": 3, "duration_sec": 13, "original_text": "355 Canadian Sunset * 3 13" },
+            { "sequence": 10, "counter_start": 394, "title": "Strangers In The Night", "duration_min": 3, "duration_sec": 9, "original_text": "394 Strangers In The Night 3 9" },
+            { "sequence": 11, "counter_start": 430, "title": "Granada", "duration_min": 2, "duration_sec": 48, "original_text": "430 Granada 2 48" },
+            { "sequence": 12, "counter_start": 461, "title": "I Can't Get Started", "duration_min": 3, "duration_sec": 23, "original_text": "461 I Can't Get Started 3 23" },
+            { "sequence": 13, "counter_start": 497, "title": "Down Home Melody", "duration_min": 2, "duration_sec": 16, "original_text": "497 Down Home Melody 2 16" },
+            { "sequence": 14, "counter_start": 521, "title": "Malaguena", "duration_min": 1, "duration_sec": 45, "original_text": "521 Malaguena * 1 45" },
+            { "sequence": 15, "counter_start": 539, "title": "If We Lived On The Top Of A Mountain", "duration_min": 2, "duration_sec": 58, "original_text": "539 If We Lived On The Top Of A Mountain 2 58" },
+            { "sequence": 16, "counter_start": 568, "title": "And The Angels Sing", "duration_min": 3, "duration_sec": 13, "original_text": "568 And The Angels Sing 3 13" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "005",
+      "side_letter": "A",
+      "filename": "Tape005A",
+      "metadata": {
+        "album_title": "Kid Ory! Favorites! (Sides 1 and 2)",
+        "main_artist": "Kid Ory's Creole Jazz Band",
+        "genre": "Dixieland Jazz",
+        "record_date_display": "1961?",
+        "dolby": "off",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "session_personnel": [
+            { "name": "Kid Ory", "role": "Trombone" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "High Society", "duration_min": 4, "duration_sec": 5, "original_text": "0 High Society 4 5" },
+            { "sequence": 2, "counter_start": 81, "title": "Do What Ory Say", "duration_min": 4, "duration_sec": 23, "original_text": "81 Do What Ory Say 4 23" },
+            { "sequence": 3, "counter_start": 157, "title": "Down Home Rag", "duration_min": 3, "duration_sec": 23, "original_text": "157 Down Home Rag 3 23" },
+            { "sequence": 4, "counter_start": 210, "title": "Careless Love", "duration_min": 5, "duration_sec": 31, "original_text": "210 Careless Love 5 31" },
+            { "sequence": 5, "counter_start": 289, "title": "Jazz Me Blues", "duration_min": 3, "duration_sec": 52, "original_text": "289 Jazz Me Blues 3 52" },
+            { "sequence": 6, "counter_start": 340, "title": "Weary Blues", "duration_min": 5, "duration_sec": 23, "original_text": "340 Weary Blues 5 23" },
+            { "sequence": 7, "counter_start": 406, "title": "Original Dixieland One-Step", "duration_min": 5, "duration_sec": 15, "original_text": "406 Original Dixieland One-Step 5 15" },
+            { "sequence": 8, "counter_start": 467, "title": "Panama", "duration_min": 5, "duration_sec": 56, "original_text": "467 Panama 5 56" },
+            { "sequence": 9, "counter_start": 530, "title": "Bourbon Street Parade", "duration_min": 4, "duration_sec": 56, "original_text": "530 Bourbon Street Parade 4 56" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "005",
+      "side_letter": "B",
+      "filename": "Tape005B",
+      "metadata": {
+        "album_title": "Kid Ory! Favorites! (Sides 3 and 4)",
+        "main_artist": "Kid Ory's Creole Jazz Band",
+        "genre": "Dixieland Jazz",
+        "record_date_display": "1961?",
+        "dolby": "off",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "session_personnel": [
+            { "name": "Kid Ory", "role": "Trombone" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "Toot, Toot, Tootsie!", "duration_min": 6, "duration_sec": 33, "original_text": "0 Toot, Toot, Tootsie! 6 33" },
+            { "sequence": 2, "counter_start": 126, "title": "Oh, Didn't He Ramble", "duration_min": 4, "duration_sec": 53, "original_text": "126 Oh, Didn't He Ramble 4 53" },
+            { "sequence": 3, "counter_start": 205, "title": "Beale Street Blues", "duration_min": 5, "duration_sec": 31, "original_text": "205 Beale Street Blues 5 31" },
+            { "sequence": 4, "counter_start": 285, "title": "Maryland, My Maryland", "duration_min": 2, "duration_sec": 42, "original_text": "285 Maryland, My Maryland 2 42" },
+            { "sequence": 5, "counter_start": 324, "title": "1919 Rag", "duration_min": 5, "duration_sec": 32, "original_text": "324 1919 Rag 5 32" },
+            { "sequence": 6, "counter_start": 394, "title": "Eh, La Bas", "duration_min": 6, "duration_sec": 0, "original_text": "394 Eh, La Bas 6 0" },
+            { "sequence": 7, "counter_start": 463, "title": "Mood Indigo", "duration_min": 6, "duration_sec": 6, "original_text": "463 Mood Indigo 6 6" },
+            { "sequence": 8, "counter_start": 529, "title": "Bugle Call Rag", "duration_min": 3, "duration_sec": 39, "original_text": "529 Bugle Call Rag 3 39" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "006",
+      "side_letter": "A",
+      "filename": "Tape006A",
+      "metadata": {
+        "album_title": "Bob Crosby's Camel Caravan",
+        "main_artist": "Bob Crosby Orchestra and the Bob Crosby Bobcats",
+        "genre": "Big Band (including some Dixieland Jazz)",
+        "record_date_display": "1939",
+        "audio_type": "Monaural",
+        "dolby": "off",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "session_personnel": [
+            { "name": "Gil Rodin", "role": "Saxophone (Orch)" },
+            { "name": "Ray Bauduc", "role": "Drums (Orch)" },
+            { "name": "Nappy Lamare", "role": "Guitar (Orch)" },
+            { "name": "Bob Haggart", "role": "String bass (Orch)" },
+            { "name": "Red Nichols", "role": "Trumpet (Orch)" },
+            { "name": "Frank Tenille", "role": "Trumpet (Orch)" },
+            { "name": "Billy Butterfield", "role": "Trumpet (Orch)" },
+            { "name": "Charlie Spivak", "role": "Trumpet (Orch)" },
+            { "name": "Eddie Miller", "role": "Saxophone (Orch)" },
+            { "name": "Joe Sullivan", "role": "Piano (Orch)" },
+            { "name": "Ray Bauduc", "role": "Drums (Bobcats)" },
+            { "name": "Nappy Lamare", "role": "Guitar (Bobcats)" },
+            { "name": "Bob Haggart", "role": "Bass (Bobcats)" },
+            { "name": "Billy Butterfield", "role": "Trumpet (Bobcats)" },
+            { "name": "Eddie Miller", "role": "Sax (Bobcats)" },
+            { "name": "Joe Sullivan", "role": "Piano (Bobcats)" },
+            { "name": "Warren Smith", "role": "Trombone (Bobcats)" },
+            { "name": "Irving Fazzola", "role": "Clarinet (Bobcats)" },
+            { "name": "Kay Starr", "role": "Vocalist" },
+            { "name": "Johnny Mercer", "role": "Vocalist" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 22, "title": "South Rampart Street Parade", "artist_display": "Bob Crosby Orchestra", "original_text": "22 South Rampart Street Parade Orch." },
+            { "sequence": 2, "counter_start": 93, "title": "Get On Board & Ride", "artist_display": "Bob Crosby Orchestra", "original_text": "93 Get On Board & Ride Orchestra" },
+            { "sequence": 3, "counter_start": 143, "title": "Sunrise Serenade", "artist_display": "Bob Crosby Orchestra", "original_text": "143 Sunrise Serenade Orchestra" },
+            { "sequence": 4, "counter_start": 183, "title": "Stumbling", "artist_display": "Bob Crosby Bobcats", "original_text": "183 Stumbling Bobcats" },
+            { "sequence": 5, "counter_start": 226, "title": "Memphis Blues", "artist_display": "Bob Crosby Orchestra", "original_text": "226 Memphis Blues Orchestra" },
+            { "sequence": 6, "counter_start": 270, "title": "Big Noise From Winnetka", "artist_display": "Bob Crosby Orchestra", "original_text": "270 Big Noise From Winnetka Orchestra" },
+            { "sequence": 7, "counter_start": 319, "title": "Then I'll Be Happy", "artist_display": "Bob Crosby Orchestra", "original_text": "319 Then I'll Be Happy Orchestra" },
+            { "sequence": 8, "counter_start": 348, "title": "Summertime (Closing Theme)", "original_text": "348 Summertime (Closing Theme)" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "006",
+      "side_letter": "B",
+      "filename": "Tape006B",
+      "metadata": {
+        "album_title": "Bob Crosby's Camel Caravan",
+        "main_artist": "Bob Crosby Orchestra and the Bob Crosby Bobcats",
+        "genre": "Big Band Dixieland",
+        "record_date_display": "1939",
+        "audio_type": "Monaural",
+        "dolby": "off",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "tracks": [
+            { "sequence": 1, "counter_start": 10, "title": "The Lady's In Love", "artist_display": "Bob Crosby Orchestra", "original_text": "10 The Lady's In Love Orchestra" },
+            { "sequence": 2, "counter_start": 70, "title": "I've Got The World On A String", "artist_display": "Bob Crosby Orchestra", "original_text": "70 I've Got The World On A String Orchestra" },
+            { "sequence": 3, "counter_start": 136, "title": "Little Rock Getaway", "artist_display": "Bob Crosby Orchestra", "original_text": "136 Little Rock Getaway Orchestra" },
+            { "sequence": 4, "counter_start": 178, "title": "If I Didn't Care", "artist_display": "Bob Crosby Orchestra", "original_text": "178 If I Didn't Care Orchestra" },
+            { "sequence": 5, "counter_start": 240, "title": "Hindustan", "artist_display": "Bob Crosby Bobcats", "original_text": "240 Hindustan Bobeats" },
+            { "sequence": 6, "counter_start": 285, "title": "Newsy-Bluesy-Ode To Picknickers", "artist_display": "Bob Crosby Orchestra", "original_text": "285 Newsy-Bluesy-Ode To Picknickers Orchestra" },
+            { "sequence": 7, "counter_start": 313, "title": "Pagan Love Song", "artist_display": "Bob Crosby Orchestra", "original_text": "313 Pagan Love Song Orchestra" },
+            { "sequence": 8, "counter_start": 347, "title": "Summertime (Closing Theme)", "artist_display": "Bob Crosby Orchestra", "original_text": "347 Summertime (Closing Theme) Orchestra" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "007",
+      "side_letter": "A",
+      "filename": "Tape007A",
+      "metadata": {
+        "album_title": "The Best Of Louis Armstrong",
+        "main_artist": "Louis And The All Stars",
+        "genre": "Dixieland Jazz",
+        "record_date_display": "October, 1959",
+        "audio_type": "Stereo",
+        "dolby": "off",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "session_personnel": [
+            { "name": "Louis Armstrong", "role": "Trumpet/Vocal" },
+            { "name": "Trummy Young", "role": "Trombone" },
+            { "name": "Peanuts Hucko", "role": "Clarinet" },
+            { "name": "Billy Kyle", "role": "Piano" },
+            { "name": "Danny Barcelona", "role": "Drums" },
+            { "name": "Mort Herbert", "role": "String bass" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "St. James Infirmary", "duration_min": 4, "duration_sec": 56, "original_text": "0 St. James Infirmary 4 56" },
+            { "sequence": 2, "counter_start": 99, "title": "I Want A Big Butter & Egg Man", "duration_min": 3, "duration_sec": 43, "original_text": "99 I Want A Big Butter & Egg Man 3 43" },
+            { "sequence": 3, "counter_start": 163, "title": "I Ain't Got Nobody", "duration_min": 3, "duration_sec": 57, "original_text": "163 I Ain't Got Nobody 3 57" },
+            { "sequence": 4, "counter_start": 225, "title": "Panama", "duration_min": 4, "duration_sec": 5, "original_text": "225 Panama 4 5" },
+            { "sequence": 5, "counter_start": 283, "title": "Dr. Jazz", "duration_min": 2, "duration_sec": 38, "original_text": "283 Dr. Jazz 2 38" },
+            { "sequence": 6, "counter_start": 318, "title": "Hot Time In The Old Town Tonight", "duration_min": 3, "duration_sec": 35, "original_text": "318 Hot Time In The Old Town Tonight 3 35" },
+            { "sequence": 7, "counter_start": 363, "title": "Frankie & Johnny", "duration_min": 4, "duration_sec": 0, "original_text": "363 Frankie & Johnny 4 0" },
+            { "sequence": 8, "counter_start": 413, "title": "I Ain't Gonna Give Nobody None Of My Jelly-Roll", "duration_min": 4, "duration_sec": 1, "original_text": "413 I Ain't Gonna Give Nobody None Of My Jelly-Roll 4 1" },
+            { "sequence": 9, "counter_start": 459, "title": "Drop That Sack", "duration_min": 2, "duration_sec": 50, "original_text": "459 Drop That Sack 2 50" },
+            { "sequence": 10, "counter_start": 490, "title": "Jelly Roll Blues", "duration_min": 2, "duration_sec": 48, "original_text": "490 Jelly Roll Blues 2 48" },
+            { "sequence": 11, "counter_start": 521, "title": "Old Kentucky Home", "duration_min": 4, "duration_sec": 31, "original_text": "521 Old Kentucky Home 4 31" },
+            { "sequence": 12, "counter_start": 567, "title": "Chimes Blues", "duration_min": 3, "duration_sec": 23, "original_text": "567 Chimes Blues 3 23" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "007",
+      "side_letter": "B",
+      "filename": "Tape007B",
+      "metadata": {
+        "album_title": "Al Hirt Swingin' Dixie",
+        "main_artist": "Al Hirt",
+        "genre": "Dixieland Jazz",
+        "audio_type": "Stereo",
+        "dolby": "off",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "session_personnel": [
+            { "name": "Al Hirt", "role": "Trumpet" },
+            { "name": "Bob Havens", "role": "Trombone" },
+            { "name": "Harold Cooper", "role": "Clarinet" },
+            { "name": "Ronnie Dupont", "role": "Piano" },
+            { "name": "Paul Edwards", "role": "Drums" },
+            { "name": "Bob Coquille", "role": "String bass" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "Darktown Strutters Ball", "duration_min": 3, "duration_sec": 2, "original_text": "0 Darktown Strutters Ball 3 2" },
+            { "sequence": 2, "counter_start": 68, "title": "Wabash Blues", "duration_min": 5, "duration_sec": 5, "original_text": "68 Wabash Blues 5 5" },
+            { "sequence": 3, "counter_start": 160, "title": "Stumblin'", "duration_min": 2, "duration_sec": 59, "original_text": "160 Stumblin' 2 59" },
+            { "sequence": 4, "counter_start": 209, "title": "Feet Draggin' Blues", "duration_min": 4, "duration_sec": 6, "original_text": "209 Feet Draggin' Blues 4 6" },
+            { "sequence": 5, "counter_start": 272, "title": "Wang, Wang, Blues", "duration_min": 4, "duration_sec": 5, "original_text": "272 Wang, Wang, Blues 4 5" },
+            { "sequence": 6, "counter_start": 328, "title": "Battle Hymn Of The Republic", "duration_min": 2, "duration_sec": 48, "original_text": "328 Battle Hymn Of The Republic 2 48" },
+            { "sequence": 7, "counter_start": 367, "title": "Chicago", "duration_min": 3, "duration_sec": 24, "original_text": "367 Chicago 3 24" },
+            { "sequence": 8, "counter_start": 410, "title": "I Can't Get Started", "duration_min": 3, "duration_sec": 39, "original_text": "410 I Can't Get Started 3 39" },
+            { "sequence": 9, "counter_start": 455, "title": "Just A Closer Walk With Thee", "duration_min": 4, "duration_sec": 27, "original_text": "455 Just A Closer Walk With Thee 4 27" },
+            { "sequence": 10, "counter_start": 511, "title": "Stardust", "duration_min": 3, "duration_sec": 11, "original_text": "511 Stardust 3 11" },
+            { "sequence": 11, "counter_start": 546, "title": "Sweet Lorraine", "duration_min": 2, "duration_sec": 25, "original_text": "546 Sweet Lorraine 2 25" },
+            { "sequence": 12, "counter_start": 572, "title": "Song Of The Wanderer", "duration_min": 4, "duration_sec": 38, "original_text": "572 Song Of The Wanderer 4 38" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "008",
+      "side_letter": "A",
+      "filename": "Tape008A",
+      "metadata": {
+        "album_title": "The 20s Score Again",
+        "main_artist": "Bob Thiele and His New Happy Times Orchestra",
+        "genre": "Dixieland Jazz",
+        "record_date_display": "1984",
+        "audio_type": "Stereo",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "Gatsby's", "duration_min": 3, "duration_sec": 3, "track_specific_credits": [ { "name": "Max Kaminsky", "role": "Trumpet" } ], "original_text": "1 0 Gatsby's 3 3" },
+            { "sequence": 2, "counter_start": 61, "title": "Sheik of Araby", "duration_min": 2, "duration_sec": 10, "track_specific_credits": [ { "name": "Al Grey", "role": "Trombone" }, { "name": "Buddy Morrow", "role": "Trombone" }, { "name": "Max Kaminsky", "role": "Trumpet" }, { "name": "Johnny Mince", "role": "Clarinet" } ], "original_text": "8,9,1,11 61 Sheik of Araby * 2 10" },
+            { "sequence": 3, "counter_start": 100, "title": "China Boy", "duration_min": 3, "duration_sec": 30, "track_specific_credits": [ { "name": "Urbie Green", "role": "Trombone" }, { "name": "Johnny Mince", "role": "Clarinet" }, { "name": "Bobby Hackett", "role": "Cornet" }, { "name": "Max Kaminsky", "role": "Trumpet" } ], "original_text": "6,11,5,1 100 China Boy 3 30" },
+            { "sequence": 4, "counter_start": 154, "title": "Someday Sweetheart", "duration_min": 4, "duration_sec": 5, "original_text": "154 Someday Sweetheart 4 5" },
+            { "sequence": 5, "counter_start": 210, "title": "Singin' The Blues", "duration_min": 2, "duration_sec": 56, "original_text": "210 Singin' The Blues 2 56" },
+            { "sequence": 6, "counter_start": 247, "title": "Back Home Again in Indiana", "duration_min": 2, "duration_sec": 50, "track_specific_credits": [ { "name": "Johnny Mince", "role": "Clarinet" }, { "name": "Pee Wee Erwin", "role": "Trumpet" }, { "name": "Urbie Green", "role": "Trombone" } ], "original_text": "11,23,6 247 Back Home Again in Indiana 2 50" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "008",
+      "side_letter": "B",
+      "filename": "Tape008B",
+      "metadata": {
+        "album_title": "The 20s Score Again",
+        "main_artist": "Bob Thiele and His New Happy Times Orchestra",
+        "genre": "Dixieland Jazz",
+        "record_date_display": "1984",
+        "audio_type": "Stereo",
+        "dolby": "off",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "What'll I Do", "duration_min": 3, "duration_sec": 11, "track_specific_credits": [ { "name": "Bobby Hackett", "role": "Cornet" }, { "name": "Warren Covington", "role": "Trombone" } ], "original_text": "Solos: 5,7 0 What'll I Do 3 11" },
+            { "sequence": 2, "counter_start": 62, "title": "Muskrat Ramble", "duration_min": 3, "duration_sec": 3, "original_text": "62 Muskrat Ramble 3 3" },
+            { "sequence": 3, "counter_start": 114, "title": "Princeton Medley: Old Nassau / The Princeton Cannon Song", "duration_min": 2, "duration_sec": 5, "original_text": "114 Princeton Medley... 2 5" },
+            { "sequence": 4, "counter_start": 146, "title": "Wolverine Blues", "duration_min": 2, "duration_sec": 31, "original_text": "146 Wolverine Blues 2 31" },
+            { "sequence": 5, "counter_start": 182, "title": "Farewell Blues", "duration_min": 3, "duration_sec": 21, "original_text": "182 Farewell Blues 3 21" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "009",
+      "side_letter": "A",
+      "filename": "Tape009A",
+      "metadata": {
+        "album_title": "Salute To Newport: Featuring Pee Wee Russell (Sides A & B)",
+        "main_artist": "Pee Wee Russell",
+        "genre": "Dixieland Jazz",
+        "record_date_display": "February, 1959",
+        "audio_type": "Stereo",
+        "dolby": "off",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "session_personnel": [
+            { "name": "Pee Wee Russell", "role": "Clarinet" },
+            { "name": "Buck Clayton", "role": "Trumpet" },
+            { "name": "Vic Dickenson", "role": "Trombone" },
+            { "name": "Bud Freeman", "role": "Tenor sax" },
+            { "name": "Dick Cary", "role": "Piano" },
+            { "name": "Eddie Condon", "role": "Guitar" },
+            { "name": "George Wettling", "role": "Drums" },
+            { "name": "Bill Takas", "role": "Bass" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "Pee Wee Blues", "duration_min": 3, "duration_sec": 30, "original_text": "0 Pee Wee Blues 3 30" },
+            { "sequence": 2, "counter_start": 81, "title": "What's The Pitch", "duration_min": 3, "duration_sec": 18, "original_text": "81 What's The Pitch 3 18" },
+            { "sequence": 3, "counter_start": 140, "title": "Dreamin' And Schemin'", "duration_min": 3, "duration_sec": 25, "original_text": "140 Dreamin' And Schemin' 3 25" },
+            { "sequence": 4, "counter_start": 196, "title": "Cutie Pie", "duration_min": 2, "duration_sec": 29, "original_text": "196 Cutie Pie 2 29" },
+            { "sequence": 5, "counter_start": 234, "title": "Oh No", "duration_min": 2, "duration_sec": 21, "original_text": "234 Oh No 2 21" },
+            { "sequence": 6, "counter_start": 269, "title": "Pee Wee's Tune", "duration_min": 4, "duration_sec": 12, "original_text": "269 Pee Wee's Tune 4 12" },
+            { "sequence": 7, "counter_start": 327, "title": "Oh Yes", "duration_min": 3, "duration_sec": 1, "original_text": "327 Oh Yes 3 1" },
+            { "sequence": 8, "counter_start": 366, "title": "Missy", "duration_min": 3, "duration_sec": 38, "original_text": "366 Missy 3 38" },
+            { "sequence": 9, "counter_start": 412, "title": "Are You Here", "duration_min": 2, "duration_sec": 25, "original_text": "412 Are You Here 2 25" },
+            { "sequence": 10, "counter_start": 441, "title": "Write Me A Love Song Baby", "duration_min": 2, "duration_sec": 4, "original_text": "441 Write Me A Love Song Baby 2 4" },
+            { "sequence": 11, "counter_start": 465, "title": "This Is It", "duration_min": 2, "duration_sec": 58, "original_text": "465 This Is It 2 58" },
+            { "sequence": 12, "counter_start": 498, "title": "But Why", "duration_min": 3, "duration_sec": 11, "original_text": "498 But Why 3 11" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "009",
+      "side_letter": "B",
+      "filename": "Tape009B",
+      "metadata": {
+        "album_title": "Salute To Newport: Featuring Pee Wee Russell (Sides C & D)",
+        "main_artist": "George Wein & The Newport All-Stars",
+        "genre": "Dixieland Jazz",
+        "record_date_display": "October, 1962",
+        "audio_type": "Stereo",
+        "dolby": "off",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "session_personnel": [
+            { "name": "George Wein", "role": "Piano" },
+            { "name": "Pee Wee Russell", "role": "Clarinet" },
+            { "name": "Ruby Braff", "role": "Cornet" },
+            { "name": "Marshall Brown", "role": "Bass Trumpet/Valve Trombone" },
+            { "name": "Bud Freeman", "role": "Tenor sax" },
+            { "name": "Marquis Foster", "role": "Drums" },
+            { "name": "Bill Takas", "role": "Bass" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "At The Jazz Band Hall", "duration_min": 4, "duration_sec": 27, "original_text": "0 At The Jazz Band Hall 4 27" },
+            { "sequence": 2, "counter_start": 91, "title": "The Bends Blues", "duration_min": 4, "duration_sec": 49, "original_text": "91 The Bends Blues 4 49" },
+            { "sequence": 3, "counter_start": 172, "title": "Crazy Rhythm", "duration_min": 2, "duration_sec": 28, "original_text": "172 Crazy Rhythm 2 28" },
+            { "sequence": 4, "counter_start": 211, "title": "Slowly", "duration_min": 4, "duration_sec": 23, "original_text": "211 Slowly 4 23" },
+            { "sequence": 5, "counter_start": 277, "title": "Ja Da", "duration_min": 2, "duration_sec": 51, "original_text": "277 Ja Da 2 51" },
+            { "sequence": 6, "counter_start": 316, "title": "Keepin' Out Of Mischief Now", "duration_min": 7, "duration_sec": 14, "original_text": "316 Keepin' Out Of Mischief Now 7 14" },
+            { "sequence": 7, "counter_start": 407, "title": "Blue Morning Turning Grey Over You", "duration_min": 3, "duration_sec": 58, "original_text": "407 Blue Morning Turning Grey Over You 3 58" },
+            { "sequence": 8, "counter_start": 453, "title": "Lulu's Back In Town", "duration_min": 7, "duration_sec": 49, "original_text": "453 Lulu's Back In Town 7 49" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "010",
+      "side_letter": "A",
+      "filename": "Tape010A",
+      "metadata": {
+        "album_title": "Alive In New Orleans",
+        "main_artist": "Pete Fountain",
+        "genre": "Dixieland Jazz",
+        "record_date_display": "1977",
+        "audio_type": "Stereo",
+        "dolby": "off",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "session_personnel": [
+            { "name": "Pete Fountain", "role": "Clarinet" },
+            { "name": "Eddie Miller", "role": "Tenor Sax" },
+            { "name": "Jack Delaney", "role": "Trombone" },
+            { "name": "Jim Duggan", "role": "Trombone" },
+            { "name": "Mike Serpas", "role": "Trumpet" },
+            { "name": "Earl Vuiovich", "role": "Piano" },
+            { "name": "Oliver Felix", "role": "Bass" },
+            { "name": "Charlie Lodice", "role": "Drums" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "The Jazz Me Blues", "duration_min": 5, "duration_sec": 22, "original_text": "0 The Jazz Me Blues 5 22" },
+            { "sequence": 2, "counter_start": 103, "title": "Stranger On The Shore", "duration_min": 3, "duration_sec": 53, "original_text": "103 Stranger On The Shore 3 53" },
+            { "sequence": 3, "counter_start": 164, "title": "Little Girl", "duration_min": 2, "duration_sec": 5, "original_text": "164 Little Girl 2 5" },
+            { "sequence": 4, "counter_start": 191, "title": "When Your Lover Has Gone", "duration_min": 4, "duration_sec": 48, "original_text": "191 When Your Lover Has Gone 4 48" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "010",
+      "side_letter": "B",
+      "filename": "Tape010B",
+      "metadata": {
+        "album_title": "Alive In New Orleans",
+        "main_artist": "Pete Fountain",
+        "genre": "Dixieland Jazz",
+        "record_date_display": "1977",
+        "audio_type": "Stereo",
+        "dolby": "off",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "session_personnel": [
+            { "name": "Pete Fountain", "role": "Clarinet" },
+            { "name": "Eddie Miller", "role": "Tenor Sax" },
+            { "name": "Jack Delaney", "role": "Trombone" },
+            { "name": "Jim Duggan", "role": "Trombone" },
+            { "name": "Mike Serpas", "role": "Trumpet" },
+            { "name": "Earl Vuiovich", "role": "Piano" },
+            { "name": "Oliver Felix", "role": "Bass" },
+            { "name": "Charlie Lodice", "role": "Drums" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "Struttin' With Some Barbeque", "duration_min": 3, "duration_sec": 18, "original_text": "0 Struttin' With Some Barbeque 3 18" },
+            { "sequence": 2, "counter_start": 68, "title": "Georgia On My Mind", "duration_min": 3, "duration_sec": 38, "original_text": "68 Georgia On My Mind 3 38" },
+            { "sequence": 3, "counter_start": 130, "title": "Diane", "duration_min": 3, "duration_sec": 12, "original_text": "130 Diane 3 12" },
+            { "sequence": 4, "counter_start": 178, "title": "Margie", "duration_min": 4, "duration_sec": 42, "original_text": "178 Margie 4 42" },
+            { "sequence": 5, "counter_start": 241, "title": "Indiana", "duration_min": 4, "duration_sec": 55, "original_text": "241 Indiana 4 55" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "011",
+      "side_letter": "A",
+      "filename": "Tape011A",
+      "metadata": {
+        "album_title": "The New Orleans Scene",
+        "main_artist": "Pete Fountain and Al Hirt",
+        "genre": "Dixieland Jazz",
+        "audio_type": "Stereo",
+        "dolby": "off",
+        "tape_selector": "normal"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "Panama", "duration_min": 3, "duration_sec": 12, "original_text": "0 Panama 3 12" },
+            { "sequence": 2, "counter_start": 67, "title": "St. Louis Blues", "duration_min": 4, "duration_sec": 29, "original_text": "67 St. Louis Blues 4 29" },
+            { "sequence": 3, "counter_start": 140, "title": "All The Wrongs You've Done To Me / They're Bound To Come Back To You", "duration_min": 3, "duration_sec": 1, "original_text": "140 All The Wrongs You've Done To Me... 3 1" },
+            { "sequence": 4, "counter_start": 184, "title": "Lonesome Road", "duration_min": 4, "duration_sec": 25, "original_text": "184 Lonesome Road 4 25" },
+            { "sequence": 5, "counter_start": 242, "title": "I Used To Love You (But It's All Over Now)", "duration_min": 3, "duration_sec": 10, "original_text": "242 I Used To Love You... 3 10" },
+            { "sequence": 6, "counter_start": 280, "title": "I've Found A New Baby", "duration_min": 3, "duration_sec": 34, "original_text": "280 I've Found A New Baby 3 34" },
+            { "sequence": 7, "counter_start": 320, "title": "It's A Long Long Way To Tipperary", "duration_min": 2, "duration_sec": 57, "original_text": "320 It's A Long Long Way To Tipperary 2 57" },
+            { "sequence": 8, "counter_start": 351, "title": "Mighty Like The Blues", "duration_min": 3, "duration_sec": 51, "original_text": "351 Mighty Like The Blues 3 51" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "011",
+      "side_letter": "B",
+      "filename": "Tape011B",
+      "metadata": {
+        "album_title": "Heliotrope Bouquet Piano Rags",
+        "main_artist": "William Bolcom",
+        "genre": "Ragtime Piano",
+        "record_date_display": "1971",
+        "audio_type": "Stereo",
+        "dolby": "off",
+        "tape_selector": "normal",
+        "catalog_number": "GP R6620"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "session_personnel": [
+            { "name": "William Bolcom", "role": "Piano" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "A Rag-time Nightmare (March and Two Step) (1900)", "duration_min": 1, "duration_sec": 18, "original_text": "0 A Rag-time Nightmare... 1 18" },
+            { "sequence": 2, "counter_start": 32, "title": "The Easy Winners (A Rag Time Two Step) (1901)", "duration_min": 3, "duration_sec": 32, "original_text": "32 The Easy Winners... 3 32" },
+            { "sequence": 3, "counter_start": 97, "title": "Heliotrope Bouquet (A Slow Drag Two Step) (1907)", "duration_min": 4, "duration_sec": 5, "original_text": "97 Heliotrope Bouquet... 4 5" },
+            { "sequence": 4, "counter_start": 161, "title": "Ethiopia Rag (1909)", "duration_min": 3, "duration_sec": 38, "original_text": "161 Ethiopia Rag 3 38" },
+            { "sequence": 5, "counter_start": 211, "title": "Pegasus (A Classic Rag) (1919)", "duration_min": 2, "duration_sec": 30, "original_text": "211 Pegasus 2 30" },
+            { "sequence": 6, "counter_start": 243, "title": "Wall Street Rag (1909)", "duration_min": 4, "duration_sec": 16, "original_text": "243 Wall Street Rag 4 16" },
+            { "sequence": 7, "counter_start": 294, "title": "Graceful Ghost (1970)", "duration_min": 4, "duration_sec": 4, "original_text": "294 Graceful Ghost 4 4" },
+            { "sequence": 8, "counter_start": 339, "title": "Seabiscuits (1967)", "duration_min": 3, "duration_sec": 12, "original_text": "339 Seabiscuits 3 12" },
+            { "sequence": 9, "counter_start": 373, "title": "Brass Knuckles (1969)", "duration_min": 3, "duration_sec": 29, "original_text": "373 Brass Knuckles 3 29" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "012",
+      "side_letter": "A",
+      "filename": "Tape012A",
+      "metadata": {
+        "album_title": "The All Time Hits Of Red Nichols",
+        "main_artist": "Red Nichols & His Five Pennies",
+        "genre": "Dixieland Jazz",
+        "audio_type": "Stereo",
+        "dolby": "off",
+        "tape_selector": "normal",
+        "catalog_number": "MJ R1140"
+      },
+      "sessions": [
+        {
+          "session_code": "Group A",
+          "session_date": "Sep. 1956",
+          "session_personnel": [
+            { "name": "Red Nichols", "role": "Cornet" },
+            { "name": "King Jackson", "role": "Trombone" },
+            { "name": "Bill Wood", "role": "Clarinet" },
+            { "name": "Heinie Beau", "role": "Alto sax" },
+            { "name": "Joe Rushton", "role": "Bass sax" },
+            { "name": "Bobby Hammack", "role": "Piano" },
+            { "name": "Allen Reuss", "role": "Guitar" },
+            { "name": "Morty Corb", "role": "Bass" },
+            { "name": "Rollie Culver", "role": "Drums" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 196, "title": "Ida! Sweet As Apple Cider", "duration_min": 2, "duration_sec": 52, "original_text": "A-1956 196 Ida! Sweet As Apple Cider 2 52" },
+            { "sequence": 2, "counter_start": 465, "title": "Peg O' My Heart", "duration_min": 2, "duration_sec": 42, "original_text": "A-1956 465 Peg O' My Heart 2 42" }
+          ]
+        },
+        {
+          "session_code": "Group B",
+          "session_date": "Apr. 1958",
+          "session_personnel": [
+            { "name": "Red Nichols", "role": "Cornet" },
+            { "name": "Abe Lincoln", "role": "Trombone" },
+            { "name": "Heinie Beau", "role": "Clarinet" },
+            { "name": "Wayne Songer", "role": "Alto sax" },
+            { "name": "Joe Rushton", "role": "Bass sax" },
+            { "name": "Bobby Hammack", "role": "Piano" },
+            { "name": "Allen Reuss", "role": "Guitar" },
+            { "name": "Morty Corb", "role": "Bass" },
+            { "name": "Rollie Culver", "role": "Drums" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "Japanese Sandman", "duration_min": 2, "duration_sec": 16, "original_text": "B-1958 0 Japanese Sandman 2 16" },
+            { "sequence": 2, "counter_start": 238, "title": "Avalon", "duration_min": 3, "duration_sec": 2, "original_text": "B-1958 238 Avalon 3 2" },
+            { "sequence": 3, "counter_start": 281, "title": "Mississippi Mud", "duration_min": 3, "duration_sec": 5, "original_text": "B-1958 281 Mississippi Mud 3 5" }
+          ]
+        },
+        {
+          "session_code": "Group C",
+          "session_date": "Mar. 1959",
+          "session_personnel": [
+            { "name": "Red Nichols", "role": "Cornet" },
+            { "name": "Moe Schneider", "role": "Trombone" },
+            { "name": "Bill Wood", "role": "Clarinet" },
+            { "name": "Wayne Songer", "role": "Alto sax" },
+            { "name": "Joe Rushton", "role": "Bass sax" },
+            { "name": "Bobby Hammack", "role": "Piano" },
+            { "name": "Allen Reuss", "role": "Guitar" },
+            { "name": "Morty Corb", "role": "Bass" },
+            { "name": "Rollie Culver", "role": "Drums" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 52, "title": "Margie", "duration_min": 2, "duration_sec": 35, "original_text": "C-1959 52 Margie 2 35" },
+            { "sequence": 2, "counter_start": 100, "title": "Battle Hymn Of The Republic", "duration_min": 5, "duration_sec": 58, "original_text": "C-1959 100 Battle Hymn Of The Republic 5 58" },
+            { "sequence": 3, "counter_start": 324, "title": "When The Saints Go Marching In", "duration_min": 6, "duration_sec": 58, "original_text": "C-1959 324 When The Saints Go Marching In 6 58" },
+            { "sequence": 4, "counter_start": 437, "title": "Indiana", "duration_min": 2, "duration_sec": 26, "original_text": "C-1959 437 Indiana 2 26" }
+          ]
+        },
+        {
+          "session_code": "Group D",
+          "session_date": "Aug. 1959",
+          "session_personnel": [
+            { "name": "Red Nichols", "role": "Cornet" },
+            { "name": "Pete Bellman", "role": "Trombone" },
+            { "name": "Bill Wood", "role": "Clarinet" },
+            { "name": "Wayne Songer", "role": "Alto sax" },
+            { "name": "Joe Rushton", "role": "Bass sax" },
+            { "name": "Bobby Hammack", "role": "Piano" },
+            { "name": "Allen Reuss", "role": "Guitar" },
+            { "name": "Morty Corb", "role": "Bass" },
+            { "name": "Rollie Culver", "role": "Drums" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 410, "title": "September Song", "duration_min": 2, "duration_sec": 16, "original_text": "D-1959 410 September Song 2 16" }
+          ]
+        }
+      ]
+    },
+    {
+      "tape_number": "012",
+      "side_letter": "B",
+      "filename": "Tape012B",
+      "metadata": {
+        "album_title": "Buck Clayton/Tenderly",
+        "main_artist": "Buck Clayton",
+        "genre": "Pop",
+        "record_date_display": "Nov. 1959",
+        "audio_type": "Stereo",
+        "dolby": "off",
+        "tape_selector": "normal",
+        "catalog_number": "MJ R725"
+      },
+      "sessions": [
+        {
+          "session_code": null,
+          "session_personnel": [
+            { "name": "Buck Clayton", "role": "Trumpet" },
+            { "name": "Jean-Claude Pelletier", "role": "Piano/Organ" },
+            { "name": "Jean Bonal", "role": "Guitar" },
+            { "name": "Kansas Fields", "role": "Drums" },
+            { "name": "Roland Lobligeois", "role": "Bass" }
+          ],
+          "tracks": [
+            { "sequence": 1, "counter_start": 0, "title": "I've Got My Love To Keep Me Warm", "duration_min": 4, "duration_sec": 25, "original_text": "0 I've Got My Love To Keep Me Warm 4 25" },
+            { "sequence": 2, "counter_start": 90, "title": "Rosetta", "duration_min": 2, "duration_sec": 48, "original_text": "90 Rosetta 2 48" },
+            { "sequence": 3, "counter_start": 140, "title": "Lonesome", "duration_min": 3, "duration_sec": 9, "original_text": "140 Lonesome 3 9" },
+            { "sequence": 4, "counter_start": 191, "title": "Tenderly", "duration_min": 3, "duration_sec": 23, "original_text": "191 Tenderly 3 23" },
+            { "sequence": 5, "counter_start": 242, "title": "Sugar Blues", "duration_min": 2, "duration_sec": 57, "original_text": "242 Sugar Blues 2 57" },
+            { "sequence": 6, "counter_start": 285, "title": "Black And Blue", "duration_min": 2, "duration_sec": 45, "original_text": "285 Black And Blue 2 45" },
+            { "sequence": 7, "counter_start": 321, "title": "Premier Bal", "duration_min": 2, "duration_sec": 51, "original_text": "321 Premier Bal 2 51" },
+            { "sequence": 8, "counter_start": 353, "title": "These Foolish Things", "duration_min": 2, "duration_sec": 56, "original_text": "353 These Foolish Things 2 56" },
+            { "sequence": 9, "counter_start": 389, "title": "Louise", "duration_min": 3, "duration_sec": 7, "original_text": "389 Louise 3 7" },
+            { "sequence": 10, "counter_start": 427, "title": "Pennies From Heaven", "duration_min": 2, "duration_sec": 45, "original_text": "427 Pennies From Heaven 2 45" },
+            { "sequence": 11, "counter_start": 458, "title": "Stompin' At The Savoy", "duration_min": 3, "duration_sec": 24, "original_text": "458 Stompin' At The Savoy 3 24" },
+            { "sequence": 12, "counter_start": 495, "title": "I'm In The Mood For Love", "duration_min": 2, "duration_sec": 52, "original_text": "495 I'm In The Mood For Love 2 52" }
+          ]
+        }
+      ]
+    }
+  ]
+}

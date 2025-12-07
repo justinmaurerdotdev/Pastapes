@@ -1,5 +1,5 @@
 import { ArrowLeft, Calendar, Disc, Info, Music2, Radio, MapPin, Users } from 'lucide-react';
-import type { CassetteSide } from '../types/cassette';
+import type { CassetteSide } from '@/types/cassette';
 import { AudioPlayer } from './AudioPlayer';
 import { SessionDisplay } from './SessionDisplay';
 
@@ -106,9 +106,9 @@ export function CassetteDetail({ side, onBack, onNavigateToPersonnel }: Cassette
           
           <div className="space-y-8">
             {side.sessions.map((session, index) => (
-              <SessionDisplay 
-                key={index} 
-                session={session} 
+              <SessionDisplay
+                key={index}
+                session={session}
                 sessionIndex={index}
                 totalSessions={side.sessions.length}
                 onNavigateToPersonnel={onNavigateToPersonnel}

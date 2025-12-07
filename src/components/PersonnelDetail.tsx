@@ -1,9 +1,9 @@
 import { ArrowLeft, Music2, Disc, Calendar, MapPin, Clock } from 'lucide-react';
 import type { CassetteSide } from '../types/cassette';
-import { cassetteSides } from '../data/cassettes';
 
 interface PersonnelDetailProps {
   personnelName: string;
+  cassetteSides: CassetteSide[];
   onBack: () => void;
   onNavigateToSide: (side: CassetteSide) => void;
 }
@@ -16,7 +16,7 @@ interface TrackAppearance {
   sourceKeys: string[];
 }
 
-export function PersonnelDetail({ personnelName, onBack, onNavigateToSide }: PersonnelDetailProps) {
+export function PersonnelDetail({ personnelName, cassetteSides, onBack, onNavigateToSide }: PersonnelDetailProps) {
   // Aggregate all appearances of this person across all cassette sides
   const appearances: TrackAppearance[] = [];
   const allRoles = new Set<string>();

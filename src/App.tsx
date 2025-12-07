@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { CassetteGrid } from './components/CassetteGrid';
 import { CassetteDetail } from './components/CassetteDetail';
 import { PersonnelDetail } from './components/PersonnelDetail';
-import { cassetteSides } from './data/cassettes';
 import type { CassetteSide } from './types/cassette';
+import { getCassetteSides } from './lib/sqlite';
 
 type View = 
   | { type: 'grid' }
@@ -12,6 +12,26 @@ type View =
 
 export default function App() {
   const [view, setView] = useState<View>({ type: 'grid' });
+  const [cassetteSides, setCassetteSides] = useState<CassetteSide[] | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    let mounted = true;
+    (async () => {
+      try {
+        const sides = await getCassetteSides();
+        if (mounted) setCassetteSides(sides);
+      } catch (e) {
+        if (mounted) setError('Failed to load cassette data');
+      } finally {
+        if (mounted) setLoading(false);
+      }
+    })();
+    return () => {
+      mounted = false;
+    };
+  }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-red-50">
@@ -32,7 +52,9 @@ export default function App() {
             <div>
               <h1 className="text-3xl tracking-tight">Cassette Archive</h1>
               <p className="text-amber-200 text-sm mt-1">
-                {cassetteSides.length} digitized tape sides
+                {loading && 'Loading…'}
+                {!loading && cassetteSides && `${cassetteSides.length} digitized tape sides`}
+                {!loading && !cassetteSides && '0 digitized tape sides'}
               </p>
             </div>
           </div>
@@ -40,11 +62,18 @@ export default function App() {
       </header>
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {error && (
+          <div className="mb-6 text-red-700 bg-red-50 border border-red-200 rounded px-4 py-3">{error}</div>
+        )}
         {view.type === 'grid' && (
-          <CassetteGrid 
-            cassetteSides={cassetteSides} 
-            onSelectSide={(side) => setView({ type: 'side', side })} 
-          />
+          loading || !cassetteSides ? (
+            <div className="text-amber-900/70">Loading cassette collection…</div>
+          ) : (
+            <CassetteGrid 
+              cassetteSides={cassetteSides} 
+              onSelectSide={(side) => setView({ type: 'side', side })} 
+            />
+          )
         )}
         {view.type === 'side' && (
           <CassetteDetail 
@@ -56,6 +85,7 @@ export default function App() {
         {view.type === 'personnel' && (
           <PersonnelDetail
             personnelName={view.name}
+            cassetteSides={cassetteSides ?? []}
             onBack={() => setView({ type: 'grid' })}
             onNavigateToSide={(side) => setView({ type: 'side', side })}
           />

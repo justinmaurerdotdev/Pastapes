@@ -94,7 +94,7 @@ export default function App() {
 
       <footer className="bg-amber-900/10 mt-16 py-6 border-t border-amber-900/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-amber-900/60 text-sm">
-          Preserving analog memories in digital form
+          This website is a labor of love, a work in progress, and guaranteed to have some rough edges. Thanks to Pa, for the amazing collection.
         </div>
       </footer>
     </div>

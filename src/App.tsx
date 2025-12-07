@@ -50,7 +50,7 @@ export default function App() {
               </svg>
             </button>
             <div>
-              <h1 className="text-3xl tracking-tight">Cassette Archive</h1>
+              <h1 className="text-3xl tracking-tight">Pa's Tapes</h1>
               <p className="text-amber-200 text-sm mt-1">
                 {loading && 'Loading…'}
                 {!loading && cassetteSides && `${cassetteSides.length} digitized tape sides`}

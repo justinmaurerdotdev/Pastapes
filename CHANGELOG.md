@@ -1,3 +1,6 @@
+## 0.1.4
+- Fixed h1 and added meta description
+
 ## 0.1.3
 - Personalization
 

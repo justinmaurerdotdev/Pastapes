@@ -60,8 +60,8 @@ function tryMapCassetteSides(db: Database): CassetteSide[] {
              COALESCE(s.has_audio, 1) AS has_audio,
              t.tape_number      AS tape_number
            FROM sides s
-           JOIN tapes t ON t.id = s.tape_id
-           ORDER BY t.tape_number, s.side_letter`
+           JOIN tapes t ON t.tape_number = s.tape_id
+           ORDER BY CAST(t.tape_number AS INTEGER), s.side_letter`
         )
       );
     } catch {
@@ -82,8 +82,8 @@ function tryMapCassetteSides(db: Database): CassetteSide[] {
              s.library_catalog_no AS library_catalog_no,
              t.tape_number      AS tape_number
            FROM sides s
-           JOIN tapes t ON t.id = s.tape_id
-           ORDER BY t.tape_number, s.side_letter`
+           JOIN tapes t ON t.tape_number = s.tape_id
+           ORDER BY CAST(t.tape_number AS INTEGER), s.side_letter`
         )
       );
     }

@@ -1,3 +1,9 @@
+## 0.1.6
+- Attempting to force a rebuild by bumping package.json version
+
+## 0.1.5
+- Fixed database sides id problem
+
 ## 0.1.4
 - Fixed h1 and added meta description
 

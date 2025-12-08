@@ -1,3 +1,6 @@
+## 0.1.8
+- Tape numbers are always integers. Filenames include left padded 0s. Query join and sort fixed.
+
 ## 0.1.6
 - Attempting to force a rebuild by bumping package.json version
 
